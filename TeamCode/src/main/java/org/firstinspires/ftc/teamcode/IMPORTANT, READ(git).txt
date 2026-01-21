@@ -1,0 +1,42 @@
+HEY GUYS
+Your favorite programmer from the very real state of CT, David Chmura, here with a git guide
+since you guys may want me to look over stuff in the future
+OR
+code from your PC, you have to use github
+
+that means you gotta do a few things
+firstly, you probably have an account
+and, you have access to this repository
+
+since you are reading this file in the private repo
+
+next, you need to run git clone in the folder you want this code in inside a terminal
+to get there, boot up a terminal and run ```cd {folder}``` until you get there
+if you get lost hit a ```dir``` if on windows or an ```ls``` on mac
+if you go too far, ```cd ..``` backs you up a step
+
+next go to git, click on code, and copy the https link
+then run the command ```git clone {PASTE THINE LINK HERE}```
+
+then the folder magically goes in and you have the code!
+
+TADA!
+
+Lets say you guys are so cool and smart and make a new change
+if its a new file, be sure to add it to git when that comes up
+if its in a file, it should be good
+
+When you are done for the day or want to push, go to the icon with the circle and line through it, it says commit
+Then what you do is you check off the file you want to send(all of them) and then put a message telling me(the coolest programmer on earth ofc)
+or past you what happened
+
+then run "COMMIT AND PUSH"
+
+At the beginning of every night though, be sure to go to the folder in a terminal with the cd, read that if you forgot
+run a ```git pull``` once inside that folder
+that way code done at home or at connecticut by the greatest programmer ever gets pulled to your laptop
+Thats like off camera mining except with code, Wow!
+SO COOL!
+
+And just like that, you are a git wizard, go get em champs
+I expect a new push after every meeting!!!
