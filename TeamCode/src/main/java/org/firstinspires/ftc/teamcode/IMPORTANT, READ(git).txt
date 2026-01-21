@@ -26,7 +26,7 @@ Lets say you guys are so cool and smart and make a new change
 if its a new file, be sure to add it to git when that comes up
 if its in a file, it should be good
 
-When you are done for the day or want to push, go to the icon with the circle and line through it, it says commit
+When you are done for the day or want to push, go to the icon with the circle and line through it, on the left sidebar it says commit
 Then what you do is you check off the file you want to send(all of them) and then put a message telling me(the coolest programmer on earth ofc)
 or past you what happened
 
