@@ -35,6 +35,7 @@ the capitalized word is a hint btw
 @TeleOp
 public class PIDF_tuner extends OpMode
 {
+    //Might have to change this to just be flywheel since that's what its called for our bot.
     public DcMotorEx FlywheelMotor;
     public double highVelocity = 1500;
     public double lowVelocity = 900;
@@ -51,6 +52,7 @@ public class PIDF_tuner extends OpMode
     @Override
     public void init()
     {
+        //Or it might be this one that i have to change i am unsure
         FlywheelMotor = hardwareMap.get(DcMotorEx.class, "shooter");
         FlywheelMotor.setMode(DcMotorEx.RunMode.RUN_USING_ENCODER);
 

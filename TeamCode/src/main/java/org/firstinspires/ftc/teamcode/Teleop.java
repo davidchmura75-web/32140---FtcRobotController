@@ -147,6 +147,7 @@ public class Teleop extends LinearOpMode {
         * it was more like 10 times I cannot count
         * except I can lowkey hit to 25 in hindi 😎
         * chah sata, chah sata 😎😎
+        * The line before this one may have to be uncommented for the code to run properly
          ((DcMotorEx) flywheel).setVelocity(bankVelocity); */
         servo.setPower(-1);
         if (flywheel.getVelocity() >= bankVelocity - 50) {
