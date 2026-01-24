@@ -32,7 +32,7 @@ public class Teleop extends LinearOpMode {
     private static final int farVelocity = 1900;
     private static final int maxVelocity = 2200;
     // FILL THESE IN ONCE THE TUNING HAS BEEN DONE ALLIGATOR PEOPLE (also uncomment the line, I have no idea how much programming you know)
-    // private PIDFCoefficients pidfCoefficients = new PIDFCoefficients(0,0,0,0);
+    private PIDFCoefficients pidfCoefficients = new PIDFCoefficients(50,0,0,15);
 
     @Override
     public void runOpMode() {
@@ -47,7 +47,7 @@ public class Teleop extends LinearOpMode {
         flywheel.setDirection(DcMotor.Direction.REVERSE);
         // THE MOST COOL PROGRAMMER EVER HAS BLESSED YOU WITH THIS LINE
         // CONGRATULATIONS!!!
-        // flywheel.setPIDFCoefficients(DcMotor.RunMode.RUN_USING_ENCODER, pidfCoefficients);
+        flywheel.setPIDFCoefficients(DcMotor.RunMode.RUN_USING_ENCODER, pidfCoefficients);
         coreHex.setDirection(DcMotor.Direction.REVERSE);
         leftDrive.setDirection(DcMotor.Direction.REVERSE);
         //Ensures the servo is active and ready
@@ -148,7 +148,9 @@ public class Teleop extends LinearOpMode {
         * except I can lowkey hit to 25 in hindi 😎
         * chah sata, chah sata 😎😎
         * The line before this one may have to be uncommented for the code to run properly
-         ((DcMotorEx) flywheel).setVelocity(bankVelocity); */
+        * It indeed needed to be
+        * ((DcMotorEx) flywheel).setVelocity(bankVelocity);*/
+        flywheel.setVelocity(bankVelocity);
         servo.setPower(-1);
         if (flywheel.getVelocity() >= bankVelocity - 50) {
             coreHex.setPower(1);

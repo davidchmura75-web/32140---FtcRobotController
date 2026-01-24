@@ -53,7 +53,7 @@ public class PIDF_tuner extends OpMode
     public void init()
     {
         //Or it might be this one that i have to change i am unsure
-        FlywheelMotor = hardwareMap.get(DcMotorEx.class, "shooter");
+        FlywheelMotor = hardwareMap.get(DcMotorEx.class, "flywheel");
         FlywheelMotor.setMode(DcMotorEx.RunMode.RUN_USING_ENCODER);
 
         //FlywheelMotor.setDirection(DcMotorSimple.Direction.REVERSE);

@@ -51,7 +51,7 @@ public class REVStarterBotTeleOpJavaSAMPLECODE extends LinearOpMode {
   }
 
   /**
-   * Controls for the drivetrain. The robot uses a split stick stlye arcade drive. 
+   * Controls for the drivetrain. The robot uses a split stick style arcade drive.
    * Forward and back is on the left stick. Turning is on the right stick.
    */
   private void splitStickArcadeDrive() {
