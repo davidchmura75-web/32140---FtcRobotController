@@ -28,8 +28,8 @@ public class Teleop extends LinearOpMode {
     private DcMotor rightDrive;
 
     // Setting our velocity targets. These values are in ticks per second!
-    private static final int bankVelocity = 1300;
-    private static final int farVelocity = 1900;
+    private static final int bankVelocity = 1700;
+    private static final int farVelocity = 2200;
     private static final int maxVelocity = 2200;
     // FILL THESE IN ONCE THE TUNING HAS BEEN DONE ALLIGATOR PEOPLE (also uncomment the line, I have no idea how much programming you know)
     private PIDFCoefficients pidfCoefficients = new PIDFCoefficients(50,0,0,15);
